@@ -1,6 +1,12 @@
 header {
+    padding: 1rem 0;
     .link {
         margin: 0 1rem;
+        color: black;
+        text-transform: uppercase;
+        &:hover{
+            color: $dc-color
+        }
     }
     a{
         vertical-align: middle;

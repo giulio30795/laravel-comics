@@ -14,8 +14,16 @@
   text-align: center;
 }
 
+header {
+  padding: 1rem 0;
+}
 header .link {
   margin: 0 1rem;
+  color: black;
+  text-transform: uppercase;
+}
+header .link:hover {
+  color: #0D7CEC;
 }
 header a {
   vertical-align: middle;
