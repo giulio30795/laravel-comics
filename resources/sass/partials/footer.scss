@@ -1,0 +1,29 @@
+footer{
+    background-color: $back-footer-color;
+    .container{
+        display:flex;
+        justify-content:space-between;
+        padding: 1rem;
+        .follow{
+            text-transform: uppercase;
+            color: $dc-color;
+            align-self: center;
+            margin-right: .5rem;
+            font-weight:500;
+
+        }
+        .btn{
+            border: 2px solid $dc-color;
+            text-transform: uppercase;
+            padding: 0.7em;
+            color: white;
+            font-size: .8rem;
+        }
+        ul {
+            list-style: none;
+            li{
+                margin: 0 .5rem
+            }
+        }
+    }
+}

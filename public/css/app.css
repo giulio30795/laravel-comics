@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .container {
@@ -12,6 +13,10 @@
 
 .text-center {
   text-align: center;
+}
+
+.d-flex {
+  display: flex;
 }
 
 header {
@@ -39,7 +44,7 @@ header a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 4rem;
+  padding: 4rem 2rem;
 }
 .card-container .container .btn {
   background-color: #0D7CEC;
@@ -67,4 +72,33 @@ header a {
      object-position: top;
   width: 100%;
   height: 100%;
+}
+
+footer {
+  background-color: #303030;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+footer .container .follow {
+  text-transform: uppercase;
+  color: #0D7CEC;
+  align-self: center;
+  margin-right: 0.5rem;
+  font-weight: 500;
+}
+footer .container .btn {
+  border: 2px solid #0D7CEC;
+  text-transform: uppercase;
+  padding: 0.7em;
+  color: white;
+  font-size: 0.8rem;
+}
+footer .container ul {
+  list-style: none;
+}
+footer .container ul li {
+  margin: 0 0.5rem;
 }
