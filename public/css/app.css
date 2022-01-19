@@ -13,3 +13,11 @@
 .text-center {
   text-align: center;
 }
+
+header .link {
+  margin: 0 1rem;
+}
+header a {
+  vertical-align: middle;
+  text-decoration: none;
+}
