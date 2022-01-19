@@ -1,15 +1,26 @@
 header {
-    padding: 1rem 0;
+    .container{
+        display: flex;
+        align-items: center;
+    }
     .link {
         margin: 0 1rem;
         color: black;
         text-transform: uppercase;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        border-bottom: 3px solid transparent;
+        &.active{
+            color: $dc-color;
+            border-color: $dc-color;
+        }
         &:hover{
-            color: $dc-color
+            color: $dc-color;
+            border-bottom: 3px solid $dc-color;
         }
     }
     a{
-        vertical-align: middle;
         text-decoration: none;
     }
 }

@@ -19,19 +19,28 @@
   display: flex;
 }
 
-header {
-  padding: 1rem 0;
+header .container {
+  display: flex;
+  align-items: center;
 }
 header .link {
   margin: 0 1rem;
   color: black;
   text-transform: uppercase;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+}
+header .link.active {
+  color: #0D7CEC;
+  border-color: #0D7CEC;
 }
 header .link:hover {
   color: #0D7CEC;
+  border-bottom: 3px solid #0D7CEC;
 }
 header a {
-  vertical-align: middle;
   text-decoration: none;
 }
 
