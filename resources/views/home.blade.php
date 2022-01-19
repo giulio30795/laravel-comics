@@ -11,7 +11,10 @@
                     </div>
                     <h6>{{$comic['series']}}</h6>
                 </div>
-            @endforeach
+                @endforeach
+                <div class="btn">
+                    Load More
+                </div>
         </div>
     </main>
     @endsection
