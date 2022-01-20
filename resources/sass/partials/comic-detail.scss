@@ -4,7 +4,7 @@
         background-image: url('/images/jumbotron.jpg');
         background-position:top ;
         height: 400px;
-        border-bottom: 2rem solid $dc-color;
+        border-bottom: 2.5rem solid $dc-color;
         .container{
             height:100%;
             padding: 0 4rem;
@@ -13,7 +13,7 @@
             height:100%;
             display: flex;
             align-items: flex-end;
-            transform: translateY(10px);
+            transform: translateY(15px);
             .img-container{
             position:relative;
             border: 1px solid white;
