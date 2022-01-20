@@ -16,6 +16,10 @@
         .card{
             width: calc(100% / 6 - 2%);
             margin: 1rem 1%;
+            a{
+                color: white;
+                text-decoration: none;
+            }
             h6{
                 font-weight:100;
                 margin-top: 1rem;
