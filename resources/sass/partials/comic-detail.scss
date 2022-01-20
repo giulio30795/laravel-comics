@@ -1,4 +1,5 @@
 .comic-detail{
+    border-bottom: 1.5rem solid $dc-color;
     .jumbo{
         background-image: url('/images/jumbotron.jpg');
         background-position:top ;
@@ -12,11 +13,39 @@
             height:100%;
             display: flex;
             align-items: flex-end;
-            transform: translateY(10px)
+            transform: translateY(10px);
+            .img-container{
+            position:relative;
+            }
+            .comic{
+                top: 0;
+            }
+            .comic, .gallery{
+                font-size: .8rem;
+                padding: 3px;
+                left:0;
+                color:white;
+                position:absolute;
+                color:white;
+                background-color: #1FA9D9;
+            }
+            .gallery{
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+            }
         }
-        }
+    }
     .comic-description{
         padding: 4rem 4rem;
+        justify-content: space-between;
+        .description{
+            padding-right: 2rem;
+            p{
+                color: $description-text;
+                line-height: 1.3rem;
+            }
+        }
         h3{
             text-transform: uppercase;
             color: $description-title;
@@ -25,12 +54,30 @@
         .available{
             display: flex;
             justify-content: space-between;
+            align-items: center;
             background-color: #55BA5A;
-            padding: 1rem;
             margin: 1rem 0;
-            span{
-                color:#AFF790
+            padding: 0 1rem;
+            border-bottom: 1px solid $description-text;
+            color: white;
+            span, .availability{
+                color:#AFF790;
             }
+            .d-flex{
+                justify-content: space-between;
+                flex-grow: 1;
+                margin-right: 1rem;
+                padding-right: 1rem;
+                align-items: center;
+            }
+            .availability{
+            border-right: 1px solid $description-text;
+            padding: 1rem;
+            height:100%;
+            }
+        }
+        .adv{
+            padding-left: 2rem;
         }
     }
 }
