@@ -35,7 +35,7 @@
                 <p>{{ $comic['description'] }}</p>
             </div>
             <div class="adv">
-                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}" alt="ADV">
+                <img src="{{ asset('/images/adv.jpg') }}" alt="{{ $comic['series'] }}" alt="ADV">
             </div>
         </div>
     </main>
