@@ -120,12 +120,29 @@ footer .container ul li {
 }
 .comic-detail .jumbo .container {
   height: 100%;
+  padding: 0 4rem;
 }
 .comic-detail .jumbo .comic-container {
   height: 100%;
   display: flex;
   align-items: flex-end;
+  transform: translateY(10px);
 }
 .comic-detail .comic-description {
-  padding: 4rem 0;
+  padding: 4rem 4rem;
+}
+.comic-detail .comic-description h3 {
+  text-transform: uppercase;
+  color: #316F99;
+  font-size: 1.5rem;
+}
+.comic-detail .comic-description .available {
+  display: flex;
+  justify-content: space-between;
+  background-color: #55BA5A;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.comic-detail .comic-description .available span {
+  color: #AFF790;
 }

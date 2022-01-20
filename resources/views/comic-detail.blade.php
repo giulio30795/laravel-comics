@@ -13,13 +13,19 @@
         <div class="container d-flex comic-description">
             <div>
                 <h3>{{ $comic['title'] }}</h3>
-                <div>
-                    {{ $comic['price'] }}
+                <div class="available">
+                    <div>
+                        <span>U.S Price:</span>
+                        {{ $comic['price'] }}
+                    </div>
+                    <div>
+                        Available
+                    </div>
                 </div>
                 <p>{{ $comic['description'] }}</p>
             </div>
-            <div>
-                <img src="{{ asset('/images/dc-logo.png') }}" alt="ADV">
+            <div class="adv">
+                <img src="{{ asset('/images/adv.jpg') }}" alt="ADV">
             </div>
         </div>
     </main>
