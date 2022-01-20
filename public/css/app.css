@@ -27,7 +27,7 @@ header .link {
   margin: 0 1rem;
   color: black;
   text-transform: uppercase;
-  height: 150px;
+  height: 120px;
   display: flex;
   align-items: center;
   border-bottom: 3px solid transparent;
@@ -110,4 +110,22 @@ footer .container ul {
 }
 footer .container ul li {
   margin: 0 0.5rem;
+}
+
+.comic-detail .jumbo {
+  background-image: url("/images/jumbotron.jpg");
+  background-position: top;
+  height: 400px;
+  border-bottom: 2rem solid #0D7CEC;
+}
+.comic-detail .jumbo .container {
+  height: 100%;
+}
+.comic-detail .jumbo .comic-container {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.comic-detail .comic-description {
+  padding: 4rem 0;
 }
